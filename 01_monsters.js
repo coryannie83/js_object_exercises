@@ -30,11 +30,25 @@
     //@see https://stackoverflow.com/questions/1335851/what-does-use-strict-do-in-javascript-and-what-is-the-reasoning-behind-it
     'use strict';
 
+    function LivingThing(monstername, monsterhealth){
+        this.name = monstername;
+        this.health = monsterhealth
+
+    
+
+    }
+
+    let creature1 = new LivingThing("Rat", 5);
+    let creature2 = new LivingThing("Goblin", 30);
+    let creature3 = new LivingThing("Ogre", 80);
+
+    let monsters = [creature1, creature2, creature3];
+
     ///////////////////////////
     // Put your code here!
     ///////////////////////////
 
-    
+
     //The code below should work when you are done
     console.log("Monsters!");
 
@@ -58,7 +72,3 @@
     }
 
 })();
-    
-
-
-    
